@@ -1,0 +1,225 @@
+/************* BASE STYLES **************/
+h1{
+  font-family: 'Raleway', sans-serif;
+  font-size: 42px;
+}
+
+h2 {
+  font-family: 'Alex Brush', cursive;
+  font-size: 40px;
+  text-align: center;
+}
+
+h3 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 22px;
+}
+
+p{
+  font-family: 'IBM Plex Serif', serif;
+  font-size: 16px;
+}
+/**************** GRID ******************/
+.full-width {
+  width: 1200px;
+}
+
+.half-width {
+  width: 600px;
+  float: left;
+}
+
+.third-width {
+  width: 400px;
+  float:left;
+}
+
+/************* Header **************/
+body {
+  margin-top: -30px;
+}
+
+ header{
+   clear:both;
+   background: url('../img/hero.jpg');
+   background-size: cover;
+   height: 570px;
+ }
+
+nav {
+  float:right;
+}
+
+nav ul li {
+  display: inline-block;
+  font-family: 'Raleway', sans-serif;
+  text-transform: uppercase;
+  padding: 15px 0px 0 55px;
+}
+
+nav ul li a:hover{
+  text-decoration: underline;
+}
+ h1 {
+   text-align: center;
+   padding: 115px 70px 0 100px;
+   line-height: 80px;
+ }
+
+header span {
+  font-family: 'Alex Brush', cursive;
+  font-size: 60px;
+}
+
+#source p{
+  text-align: right;
+  margin-top: 278px;
+  font-size: 10px;
+  padding-right: 5px;
+}
+
+a:link, a:visited, a:hover, a:active {
+  text-decoration: none;
+  color: inherit;
+}
+
+/********** Work ****************/
+#work {
+  overflow: auto;
+  background-color: white;
+}
+
+#work h2 {
+  padding: 20px 0;
+  color: #66999B;
+}
+
+.description, .screenshot{
+  height: 330px;
+  box-sizing: border-box;
+}
+
+.screenshot {
+  padding-left: 60px;
+}
+
+.screenshot img {
+  border: 2px solid #B3AF8F;
+  width: 500px;
+  height: 265px;
+}
+
+ .description h3 {
+   margin-top: 0px;
+ }
+
+ #work a:hover {
+   text-decoration: underline;
+ }
+
+.skill {
+  color: #66999B;
+}
+
+ .description p {
+   text-align: justify;
+   margin: 25px 15px 25px 0;
+   line-height: 23px;
+ }
+
+/************ About ****************/
+#about {
+  overflow: auto;
+  background: #B3AF8F;
+  padding-bottom: 25px;
+}
+
+#about h2 {
+  margin: 50px 0 40px 0;
+}
+
+#bio {
+  height: 350px;
+}
+
+#bio p {
+  margin: 0px 15px 12px 0;
+  text-align: justify;
+  line-height: 25px;
+}
+
+#bio span {
+  font-style: italic;
+  font-size: 18px;
+}
+
+#sign-off {
+  font-family: 'Alex Brush', cursive;
+  font-size: 36px;
+  padding-top: 20px;
+}
+
+#about img{
+  margin-left: 60px;
+  margin-bottom: 25px;
+  border: 2px solid #FFC482;
+}
+
+/************** Contact *****************/
+#contact {
+  overflow: auto;
+  background-color: #496A81;
+  padding-bottom: 75px;
+  padding-top: 15px;
+}
+
+#contact .third-width {
+  text-align: center;
+  box-sizing: border-box;
+}
+
+#contact h2, #contact h3 {
+  color: white;
+}
+
+#contact p {
+  line-height: 7px;
+  color: #496A81;
+  font-size: 20px;
+}
+
+#contact span {
+  background-color: #FFC482;
+}
+
+#hire {
+  margin-bottom: 45px;
+}
+
+#email {
+  padding: 15px 8px;
+}
+
+#meet {
+    margin-bottom: 35px;
+}
+
+#location {
+  padding: 3px 61px 4px 61px;
+}
+
+#roots {
+  padding: 0px 4px 3px 4px;
+}
+
+/************ Footer ***********/
+footer {
+  padding: 15px 0;
+  text-align: center;
+}
+
+#copyright p{
+  margin: 0;
+  font-family: 'Raleway', sans-serif;
+  font-size: 14px;
+}
